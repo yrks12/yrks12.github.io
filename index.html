@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faceless Shorts — YAIRTECH</title>
+  <meta name="description" content="Faceless Shorts, ready to post in 48 hours. Script, voice, captions, stock. No face, no camera. £29 for one, £149 for ten.">
+  <style>
+    :root { --bg:#0b0c0e; --ink:#ecece8; --muted:#9a9a92; --line:#2a2b2e; --card:#141518; --accent:#e8e4d4; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    html,body { background:var(--bg); color:var(--ink); }
+    body { font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.45; min-height:100dvh; padding:1.25rem 1.1rem 2rem; }
+    .wrap { max-width:36rem; margin:0 auto; }
+    header { display:flex; align-items:baseline; justify-content:space-between; margin-bottom:1.5rem; letter-spacing:.14em; font-size:.7rem; color:var(--muted); text-transform:uppercase; }
+    h1 { font-size:clamp(1.7rem,6vw,2.15rem); font-weight:650; letter-spacing:-.03em; line-height:1.12; margin-bottom:.7rem; }
+    .lede { color:var(--muted); font-size:.98rem; margin-bottom:1.1rem; }
+    .sample { width:100%; max-width:18rem; margin:0 auto 1.35rem; display:block; border-radius:.7rem; background:#000; aspect-ratio:9/16; }
+    .prices { display:grid; grid-template-columns:1fr 1fr; gap:.7rem; margin-bottom:1.5rem; }
+    a.pay { display:block; text-align:center; text-decoration:none; color:var(--bg); background:var(--accent); border-radius:.7rem; padding:.95rem .6rem .85rem; font-weight:650; font-size:1.05rem; }
+    a.pay span { display:block; font-weight:500; font-size:.72rem; letter-spacing:.04em; opacity:.7; margin-top:.15rem; }
+    a.pay.ghost { background:transparent; color:var(--ink); border:1px solid var(--line); }
+    .steps { display:grid; grid-template-columns:1fr 1fr 1fr; gap:.5rem; margin-bottom:1.35rem; font-size:.82rem; color:var(--muted); }
+    .steps b { display:block; color:var(--ink); font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; margin-bottom:.15rem; }
+    .cols { display:grid; grid-template-columns:1fr 1fr; gap:.85rem; margin-bottom:1.35rem; font-size:.86rem; }
+    .cols h2 { font-size:.7rem; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); font-weight:600; margin-bottom:.4rem; }
+    .cols ul { list-style:none; }
+    .cols li { padding:.12rem 0; }
+    .cols .no li { color:var(--muted); }
+    .after { border:1px solid var(--line); background:var(--card); border-radius:.7rem; padding:.9rem 1rem; font-size:.88rem; color:var(--muted); }
+    .after strong { color:var(--ink); font-weight:600; }
+    footer { margin-top:1.6rem; font-size:.72rem; color:var(--muted); letter-spacing:.08em; text-transform:uppercase; }
+    @media (max-width:420px) { .steps { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header><span>YAIRTECH</span><span>48h delivery</span></header>
+    <h1>Faceless Shorts, ready to post in 48 hours.</h1>
+    <p class="lede">Send a niche, or one example channel. You get a vertical short: script, voice, captions, stock. No face, no camera. MP4 for YouTube Shorts, TikTok, or Reels.</p>
+    <video class="sample" src="sample-he.mp4" poster="poster.jpg" controls playsinline preload="metadata"></video>
+    <div class="prices">
+      <a class="pay" href="#pay-29">£29<span>1 short</span></a>
+      <a class="pay ghost" href="#pay-149">£149<span>10 shorts</span></a>
+    </div>
+    <div class="steps">
+      <div><b>1 · Pay</b>Pick 1 or 10.</div>
+      <div><b>2 · Niche</b>Checkout asks for niche or example channel.</div>
+      <div><b>3 · File</b>MP4 in 48 hours.</div>
+    </div>
+    <div class="cols">
+      <div><h2>You get</h2><ul><li>15–45s vertical</li><li>Voiceover + captions</li><li>Stock footage</li><li>MP4, ready to post</li><li>48-hour delivery</li></ul></div>
+      <div class="no"><h2>You do not get</h2><ul><li>A monetized channel</li><li>Thumbnails, banners, or channel setup</li><li>A promise of views</li></ul></div>
+    </div>
+    <p class="after"><strong>Paid?</strong> The niche field on Stripe starts the 48h clock. We email the file to the address on the receipt.</p>
+    <footer>YAIRTECH · Faceless Shorts</footer>
+  </div>
+</body>
+</html>
